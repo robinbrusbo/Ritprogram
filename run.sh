@@ -1,5 +1,5 @@
 #!/bin/bash
-cmake --build "build" --config Release --target all -- -j 10
+cmake --build "build" --config Release --target all --
 ./Program
 
 rm Program
